@@ -1,0 +1,4 @@
+.place__paragraph-container {
+    grid-area: text;
+    max-width: 484px;
+}
