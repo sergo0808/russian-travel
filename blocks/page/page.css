@@ -1,36 +1,14 @@
 .page {
-max-width: 1280px;
-min-height: 100vh;    
-padding-top: 28px;
+  max-width: 1280px;
+  min-height: 100vh;
+  padding-top: 0;
+  background: #2a2c2f;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
 
-margin-left: auto;
-margin-right: auto;
-
-
-
-
-font-family: 'Inter';  
-background: #2A2C2F;
-color: #FFFFFF;
-
-text-rendering:optimizeLegibility;
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-}
-div {
-border: 1px solid red;
-}
-h1 {
-border: 1px solid red;
-}
-
-p{
-border: 1px solid red;
-}
-
-caption {
-border: 1px solid red;
-}
-section {
-border: 1px solid red;    
+  font-family: "Inter";
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }

@@ -6,8 +6,27 @@
   margin-right: auto;
   margin-bottom: 0;
 
-  font-weight: normal; 
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    margin-top: 16px;
+    font-size: 14px;
+  }
 }

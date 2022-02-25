@@ -8,9 +8,12 @@
   text-decoration: none;
   text-decoration-line: underline;
   color: #fff;
-  
 }
 
 .place__website-url-link:visited {
-    color: white;
+  color: white;
+}
+
+.place__website-url-link:hover {
+  opacity: 0.8;
 }

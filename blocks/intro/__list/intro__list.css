@@ -1,9 +1,21 @@
 .intro__list {
-list-style-type: none;
-margin-top: 33px;
-padding-left: 0;
+  max-width: 690px;
+  list-style-type: none;
+  margin-top: 33px;
+  padding-left: 0;
 
-font-weight: normal;
-font-size: 12px;
-line-height: 18px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+  }
 }
