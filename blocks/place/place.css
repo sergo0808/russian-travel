@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 700px) {
   .place {
-    margin-top: 50px;
+    margin-top: 99px;
     margin-right: auto;
     margin-left: auto;
     grid-template-columns: 288px;
