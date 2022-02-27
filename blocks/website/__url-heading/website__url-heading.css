@@ -1,0 +1,10 @@
+.website__url-heading {
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  color: #aaaaaa;
+}

@@ -18,9 +18,11 @@
     margin-top: 90px;
     padding-left: 24px;
     padding-right: 24px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .places {
     margin-top: 64px;
     padding-left: 0px;
