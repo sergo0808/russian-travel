@@ -7,3 +7,9 @@
   margin-bottom: 6px;
   margin-left: 18px;
 }
+
+@media screen and (max-width: 400px) {
+  .header__lang-links {
+    margin-left: 0;
+  }
+}
