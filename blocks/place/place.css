@@ -9,14 +9,18 @@
     "image text";
   margin-left: auto;
   margin-right: auto;
-  padding-left: 48px;
-  padding-right: 48px;
+  margin-bottom: 80px;
+  padding-left: 148px;
+  padding-right: 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px auto;
     column-gap: 32px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-bottom: 71px;
   }
 }
 
@@ -26,10 +30,7 @@
     padding-left: 24px;
     padding-right: 24px;
     column-gap: 23px;
-    margin-top: 40px;
-  }
-  .place:first-of-type {
-    margin-top: 3px;
+    margin-bottom: 72px;
   }
 }
 
@@ -38,12 +39,17 @@
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    grid-template-columns: 288px;
+    grid-template-columns: auto;
     grid-template-areas:
       "title"
       "website"
       "image"
       "text";
     justify-content: center;
+    column-gap: 0;
+    row-gap: 32px;
+  }
+  .place:last-child {
+    margin-bottom: 0;
   }
 }

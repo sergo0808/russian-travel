@@ -21,3 +21,9 @@
     margin-top: 41px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .lead {
+    margin-top: 47px;
+  }
+}

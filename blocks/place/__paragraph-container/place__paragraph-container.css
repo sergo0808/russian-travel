@@ -1,6 +1,8 @@
 .place__paragraph-container {
   grid-area: text;
   max-width: 484px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,11 +13,11 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph-container {
-    max-width: 340px;
+    max-width: 352px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
   .place__paragraph-container {
     max-width: 288px;
     padding-left: 16px;

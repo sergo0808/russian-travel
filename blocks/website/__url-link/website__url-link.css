@@ -11,10 +11,10 @@
   color: #fff;
 }
 
-.place__website-url-link:visited {
+.website__url-link:visited {
   color: white;
 }
 
-.place__website-url-link:hover {
+.website__url-link:hover {
   opacity: 0.8;
 }
