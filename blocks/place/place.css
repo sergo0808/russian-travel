@@ -42,6 +42,7 @@
     padding: 0;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
     grid-template-columns: auto;
     grid-template-areas:
       "title"
@@ -51,20 +52,5 @@
     justify-content: center;
     column-gap: 0;
     row-gap: 32px;
-  }
-  .place:last-child {
-    margin-bottom: 0;
-  }
-  .place:nth-child(1) {
-    margin-bottom: 78px;
-  }
-  .place:nth-child(2) {
-    margin-bottom: 50px;
-  }
-  .place:nth-child(3) {
-    margin-bottom: 50px;
-  }
-  .place:nth-child(4) {
-    margin-bottom: 76px;
   }
 }
